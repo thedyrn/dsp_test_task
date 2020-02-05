@@ -1,9 +1,12 @@
+import os
+
 from aiogram import Bot, Dispatcher, executor, types
+
 import photos_handler as ph
 import voice_handler as vh
 import utils
 
-BOT_TOKEN = 'TOKEN'
+BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
 
 bot = Bot(BOT_TOKEN)
 dp = Dispatcher(bot)

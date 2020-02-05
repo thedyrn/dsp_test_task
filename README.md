@@ -1,2 +1,2 @@
-# dsp_test_task
+# DSP Test Task
 Тестовое задание для DSP Labs
